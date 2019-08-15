@@ -81,8 +81,8 @@ COLOCAR IMAGEM DO PROJETO
 
 Qualquer dúvida, é só entrar em contato com os criadores:
 
-*Ana Beatriz: (83)99650-4471*
 
+*Ana Beatriz: (83)99650-4471*
 *Igor Stefan: (83)98694-3092*
 
 
