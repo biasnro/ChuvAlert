@@ -14,7 +14,7 @@ Se desejar utilizar o software do ChuvAlert, basta fazer o download do repositó
 
 A interface do ChuvAlert é bem simples e intuitiva. Em sua tela inicial, além de uma imagem para apresentação da aplicação, temos os seguintes campos: Serial e Estado. Abaixo está algumas dicas para melhorar a sua experiência.
 
-COLOCAR IMAGEM DA TELA INICIAL
+![tela inicial](imagens/qt-conectado.png)
 
 # Manual para utilização do ChuvAlert
 
