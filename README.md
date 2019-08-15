@@ -86,7 +86,8 @@ Logo, a interface do Aplicativo ficará assim:
 
 Como já foi dito tudo acima, aqui está presente uma foto do protótipo para demonstração do funcionamento do ChuvAlert.
 
-
+![](figuras/68349232_360320964904471_7433618426846773248_n.jpg)
+![](figuras/69256731_754147418376090_1607759529095725056_n.jpg)
 
 ### Agora é só começar a utilizar! :)
 
