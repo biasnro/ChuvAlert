@@ -26,37 +26,42 @@ Abaixo estão algumas dicas para melhorar a sua experiência.
 
 Para utilizar o sistema, é fundamental primeiramente fazer a conexão com a ESP presente no circuito eletrônico. Para isto, se faz necessário selecionar a porta USB em que o cabo está localizado através do ComboBox "Porta".
 
-COLOCAR IMAGEM DO COMBOBOX PORTA
-
+![](figuras/box_porta.png)
 Em seguida, é necessário selecionar a velocidade através do ComboBox "Velocidade".
 OBSERVAÇÃO: Para que funcione perfeitamente, selecione a velocidade 115200).
 
-COLOCAR IMAGEM DO COMBO VELOCIDADE
+![](figuras/box_velocidade.png)
 
 Após selecionar a porta e a velocidade, basta clicar no botão "Conectar" e o Aplicativa estará conectado ao circuito! 
 Abaixo dos botões pode ser visto o status da conexão (Conectado -> quando está conectado/ Desconectado -> quando está desconectado).
 
-COLOCAR IMAGEM DO CIRCUITO CONECTADO
+![](figuras/circ_cenectado.PNG)
 
 Caso deseje desconectar o Aplicativo do circuito, basta clicar no botão "Desconectar".
 
-COLOCAR IAMGEM DO CIRCUITO DESCONECTADO
+![](figuras/circ_desconectado.PNG)
 
 ### 2. Estado
 
 Em Estado, é possível observar as informações que o dispositivo fornece. Neste campo serão mostradas três informações essenciais que são atualizadas a cada 0,5 segundos.
 
+![](figuras/estado.PNG)
+
 ### 2.1 Janela
 
 A primeira informação diz respeito ao estado em que a janela se encontra, ou seja, se a janela estivar aberta aparecerá a mensagem "Janela: Aberta" e se estiver fechada aparecerá "Janela: Fechada". 
 
-COLOCAR A IMAGEM DA JANELA ABERTA E FECHADA
+![](figuras/janela_aberta.PNG)
+
+![](figuras/janela_fechada.PNG)
 
 ### 2.2 Tempo
 
 A segunda informação diz respeito a como está o tempo no momento, se estivar chovendo aparecerá a mensagem "Tempo: COM CHUVA" e se não estivar chovendo aparecerá "Tempo: SEM CHUVA".
 
-COLOCAR IMAGEM DO TEMPO COM CHUVA E SEM CHUVA
+![](figuras/com_chuva.PNG)
+
+![](figuras/sem_chuva.PNG)
 
 ### 2.3 Sensor 
 
@@ -67,17 +72,21 @@ O Sensor de Chuva está sendo utilizado para monitorar a variação da condiçã
 Estado Alto -> 1024
 Estado Baixo -> 0
 
-Após testes, foi estabelecido uma faixa para determinar se está chovendo ou não. Se o número que estiver mostrando na aba "Sensor: " for menor que 590, isso quer dizer que está chovendo. Caso seja maior que 590, isso quer dizer que não está chovendo.
+Após testes, foi estabelecido uma faixa para determinar se está chovendo ou não. Se o número que estiver mostrando na aba "Sensor: " for menor que 590, isso quer dizer que está chovendo. Caso seja maior que 590, isso quer dizer que não está chovendo. Podemos ver a lógica na figura abaixo: 
 
-COLOCAR IMAGEM  DO ARDUINO
+![](figuras/arduino.PNG)
 
-COLOCAR IMAGEM DOS NUMEROS DO SENSOR
+Logo, a interface do Aplicativo ficará assim:
+
+![](figuras/sensor_semchuva.PNG)
+
+![](figuras/sensor_comchuva.PNG)
 
 ### 3. Funcionamento
 
 Como já foi dito tudo acima, aqui está presente uma foto do protótipo para demonstração do funcionamento do ChuvAlert.
 
-COLOCAR IMAGEM DO PROJETO
+
 
 ### Agora é só começar a utilizar! :)
 
